@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 140075305}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -244,6 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ce09531c7129c48a33a09dd76b5255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 423236060680976922, guid: 142bfe512c3289248bf83a939ef33d34, type: 3}
   speed: 4
 --- !u!136 &140075307
 CapsuleCollider:
@@ -967,8 +968,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.267019, y: -0.0080920635, z: 0.0022443451, w: -0.96365476}
-  m_LocalPosition: {x: 4.531469, y: 9.415144, z: -19.04776}
+  m_LocalRotation: {x: -0.4620515, y: 0.0018618309, z: -0.00096624275, w: -0.88685066}
+  m_LocalPosition: {x: 4.2494445, y: 10.813314, z: -12.71968}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
